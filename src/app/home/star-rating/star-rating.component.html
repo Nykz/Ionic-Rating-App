@@ -1,0 +1,10 @@
+<div [align]="alignment">
+  <ion-icon
+    *ngFor="let star of stars; let i = index"
+    [style.marginRight.px]="5" 
+    [style.fontSize]="size"
+    [name]="star.icon" 
+    [color]="star.color"
+    (click)="rate(i + 1)">
+  </ion-icon>
+</div>

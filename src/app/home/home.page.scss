@@ -1,0 +1,47 @@
+ion-list {
+  ion-list-header {
+    ion-label {
+      font-size: 0.9rem;
+    }
+  }
+  ion-item {
+    ion-label {
+      font-weight: bold;
+      div {
+        margin-top: 8px;
+        ion-text {
+          font-size: 0.9rem;
+        }
+      }
+      p {
+        margin-top: 5px;
+        ion-text {
+          font-size: 0.75rem;
+          span {
+            font-weight: normal;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+ion-modal {
+  ion-row {
+    ion-col {
+      ion-label {
+        letter-spacing: 0.5px;
+        font-size: 0.9rem;
+      }   
+      ion-textarea {
+          --background: var(--ion-color-light);
+          --border-radius: 5px;
+      }
+    }
+    ion-col.rate {
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+  }
+  }
+}

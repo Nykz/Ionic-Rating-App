@@ -1,0 +1,7 @@
+{
+  "name": "rating-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
